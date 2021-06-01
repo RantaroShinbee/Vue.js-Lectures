@@ -1,0 +1,19 @@
+{
+  "slidingItemList": [
+    {
+      "headLine": "Example headline.",
+      "description": "Some representative placeholder content for the first slide of the carousel.",
+      "action": "Sign up today"
+    },
+    {
+      "headLine": "Another example headline.",
+      "description": "Some representative placeholder content for the second slide of the carousel.",
+      "action": "Learn more"
+    },
+    {
+      "headLine": "One more for good measure.",
+      "description": "Some representative placeholder content for the first slide of the carousel.",
+      "action": "Browse gallery"
+    }
+  ]
+}
