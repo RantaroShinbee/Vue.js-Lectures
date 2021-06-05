@@ -6,27 +6,45 @@
 
 <script>
 // import label-collection.json
-import LabelStorage from './asset/resource/label-storage.json';
-import DummyHomeData  from './dummy_data/dummy-home-data.json';
+import LabelStorage from './asset/resources/label-storage.json';
+import DummyHomeData from './dummy_data/dummy-home-data.json';
 // import components
 import TheHomePage from './components/page/the-home-page.vue';
 
 export default {
   components: {
-    TheHomePage
+    TheHomePage,
   },
   data() {
     return {
-      labelStorage: LabelStorage,
-      dummyHomeData: DummyHomeData
-    }
+      marketingItemList: [
+        {
+          id: 1,
+          heading: 'Heading',
+          description:
+            'Some representative placeholder content for the first slide of the carousel.',
+        },
+        {
+          id: 2,
+          heading: 'Heading',
+          description:
+            'Some representative placeholder content for the first slide of the carousel.',
+        },
+        {
+          id: 3,
+          heading: 'Heading',
+          description:
+            'Some representative placeholder content for the first slide of the carousel.',
+        },
+      ],
+    };
   },
   provide() {
     return {
-      labelStorage: this.labelStorage,
-      dummyHomeData: this.dummyHomeData
-    }
-  }
+      labelStorage: LabelStorage,
+      dummyHomeData: DummyHomeData,
+    };
+  },
 };
 </script>
 

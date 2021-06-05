@@ -3,5 +3,6 @@
   "homeNavigationLabel": "Home",
   "linkNagivationLabel": "Link",
   "disableNavigationLabel": "disable",
-  "searchNavigationButtonText": "Search"
+  "searchNavigationButtonText": "Search",
+  "marketingSectionViewDetailButtonText": "View details"
 }

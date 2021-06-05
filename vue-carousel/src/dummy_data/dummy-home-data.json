@@ -15,5 +15,22 @@
       "description": "Some representative placeholder content for the first slide of the carousel.",
       "action": "Browse gallery"
     }
+  ],
+  "marketingItemList": [
+    {
+      "id": 1,
+      "heading": "Heading",
+      "description": "Some representative placeholder content for the first slide of the carousel."
+    },
+    {
+      "id": 2,
+      "heading": "Heading",
+      "description": "Some representative placeholder content for the first slide of the carousel."
+    },
+    {
+      "id": 3,
+      "heading": "Heading",
+      "description": "Some representative placeholder content for the first slide of the carousel."
+    }
   ]
 }
